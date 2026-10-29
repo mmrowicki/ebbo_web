@@ -42,3 +42,6 @@ body,h1,h2,h3,.logo,button,input,select,textarea{font-family:'DM Sans',sans-seri
 
 /* Download copy matches QR visibility */
 .download-mobile-copy{display:none}@media(max-width:700px){.download-desktop-copy{display:none}.download-mobile-copy{display:inline}}
+
+/* App illustration is reserved for larger screens. */
+@media(max-width:700px){.hero .stage{display:none}}

@@ -63,3 +63,5 @@ body,h1,h2,h3,.logo,button,input,select,textarea{font-family:'DM Sans',sans-seri
 
 /* Mail buttons retain white labels on a dark background. */
 .policy a.btn[href^="mailto:"]{color:#fff;text-decoration:none}
+
+@media(max-width:700px){.navlinks>a[href="support.html"]{display:inline-flex;align-items:center;min-height:44px;padding:0 8px;font-size:14px}.navlinks{gap:4px}}

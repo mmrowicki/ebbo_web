@@ -60,3 +60,6 @@ body,h1,h2,h3,.logo,button,input,select,textarea{font-family:'DM Sans',sans-seri
 
 /* Shared brand icon remains visible on every screen size. */
 .brand-icon{display:block;width:40px;height:40px;flex-shrink:0;border-radius:24%;object-fit:contain}@media(max-width:700px){.brand-icon{width:36px;height:36px;border-radius:24%}}
+
+/* Mail buttons retain white labels on a dark background. */
+.policy a.btn[href^="mailto:"]{color:#fff;text-decoration:none}

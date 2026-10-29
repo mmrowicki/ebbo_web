@@ -45,3 +45,6 @@ body,h1,h2,h3,.logo,button,input,select,textarea{font-family:'DM Sans',sans-seri
 
 /* App illustration is reserved for larger screens. */
 @media(max-width:700px){.hero .stage{display:none}}
+
+/* Supplied app screenshot replaces the illustrative phone. */
+.screenshot-stage{padding:30px;min-height:620px}.app-screenshot{position:relative;z-index:1;display:block;width:auto;height:auto;max-width:100%;max-height:590px;border:6px solid #111;border-radius:38px;box-shadow:10px 20px 30px #0002;transform:rotate(4deg)}@media(min-width:701px) and (max-width:1000px){.screenshot-stage{padding:24px 18px}.app-screenshot{max-height:530px;border-radius:30px}}

@@ -74,3 +74,6 @@ body,h1,h2,h3,.logo,button,input,select,textarea{font-family:'DM Sans',sans-seri
 @media(max-width:700px){.privacy + .closing{margin-top:32px}}
 /* Readable supporting text on larger screens. */
 @media(min-width:701px){.eyebrow{font-size:13px;line-height:1.6;letter-spacing:1px}.micro,.trust,.store-status,footer,footer>span,.policy .policy-date{font-size:13px;line-height:1.7}.qr-placeholder small,.store-badge small{font-size:12px;line-height:1.5}}
+
+/* Inline policy and support links remain distinct from body text. */
+.policy p a:not(.btn){text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}.policy p a:not(.btn):hover{text-decoration-thickness:2px}
